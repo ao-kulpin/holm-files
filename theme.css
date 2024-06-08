@@ -1366,17 +1366,25 @@ img.hover-2{
 }
 .hover-2{
 	opacity:0;
+	cursor:poiter;
 	position:absolute;
 	left:-47%;
 	bottom:35px;
+	#####top:0;
 	transition:opacity ease-in-out .4s;
 }
 tr:hover .hover-2{
 	opacity:1;
 }
 }
-.categories a:hover{
-	color:#DAB089;
+.categories tr:hover{
+color:#FFF;
+}
+.categories h3:hover{
+color:#FFF;
+}
+.categories td:hover{
+color:#FFF;
 }
 .single-product .variations tbody{
 	display:flex;
