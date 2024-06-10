@@ -1,0 +1,19 @@
+Доступы к сайту:
+https://holm.desi/wp-admin/
+holmdesign
+***********
+
+figma:
+https://www.figma.com/design/6jdAspgla11P3o8muoQQXM/HOLM-%7C-%D0%A1%D0%B0%D0%B9%D1%82-(%D1%81olab)?node-id=66-313&t=IH4OXR6NbtEAwQ8c-1
+
+
+hosting: http://beget.ru
+ip:      87.236.16.21
+
+Hosting beget: https://cp.beget.com
+holmdesign
+************
+
+db: holmport
+user: root 
+psw: *****
