@@ -17,3 +17,12 @@ holmdesign
 db: holmport
 user: root 
 psw: *****
+
+Problems
+1. Icon vector-phone.svg causes error
+
+::1 - - [09/Jun/2024:00:05:04 +0300] "GET /holm/kafteess/2024/02/vector-plus-2.svg HTTP/1.1" 200 220 "http://localhost/holm/wp-admin/post.php?post=3400&action=elementor" 
+
+See: Soda/Конструктор Заголовков/Шапка
+
+Unresolved
