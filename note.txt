@@ -14,6 +14,11 @@ Hosting beget: https://cp.beget.com
 holmdesign
 ************
 
+FTP: holmdesign.beget.tech
+holmdesign_ak
+*********
+
+
 db: holmport
 user: root 
 psw: *****
