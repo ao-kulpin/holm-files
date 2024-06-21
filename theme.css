@@ -661,11 +661,12 @@ background:transparent!important;
     flex-direction: row;
     flex-wrap: nowrap;
 	margin-top:10px;
+	margin-right:10px;
 		transition:all .5s;
 }
 .actual_desc p{
 	color:#DAB089;
-	font-size:16px;
+	font-size:14px;
 	transition:all .5s;
 }
 .hover:hover .actual_desc p{
