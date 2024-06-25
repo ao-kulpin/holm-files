@@ -3,6 +3,7 @@ const swiper = new Swiper('.swiperCarousel', {
 	slidesPerView: 4,
   spaceBetween: 20,
   loop: true,
+  centeredSlides: true,
 	breakpoints: {
     320: {
       slidesPerView: 1,
