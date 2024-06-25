@@ -31,3 +31,9 @@ Problems
 See: Soda/Конструктор Заголовков/Шапка
 
 Unresolved
+
+2. Slider Swiper
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+WP admin/elementor/Custom Code
