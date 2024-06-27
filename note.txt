@@ -23,6 +23,9 @@ db: holmport
 user: root 
 psw: *****
 
+db: holmdesign_port
+02Yj/1960
+
 Problems
 1. Icon vector-phone.svg causes error
 
