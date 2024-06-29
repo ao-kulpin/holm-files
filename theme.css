@@ -1461,10 +1461,10 @@ nav[class*="-pagination"] li .page-numbers {
 		.flex div{
 		display:flex;
 		flex-direction: row;
-		gap:30px;
+		gap:25px 2px;
 	}
 	.flex .elementor-column{
-		width:25%;
+		width:32.9%;
 	}
 	.flex .elementor-widget-wrap{
 		width:auto;
