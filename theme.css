@@ -1478,7 +1478,11 @@ nav[class*="-pagination"] li .page-numbers {
 		height:430px;
 		width:100%;
 		object-fit:cover;
-		
+	}
+	.swiperActual .swiper-slide img{
+		height:400px;
+		width:100%;
+		object-fit:cover;
 	}
 #post-3400 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6959932.elementor-section-full_width.elementor-section-stretched.hero-block.elementor-section-height-default.elementor-section-height-default.wd-section-disabled.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no{
 		padding-top:268px;
@@ -1489,15 +1493,23 @@ nav[class*="-pagination"] li .page-numbers {
 		height:430px;
 		width:490px;
 		object-fit:cover;
-		
+	}
+	.swiperActual .swiper-slide img{
+		height:550px;
+		width:100%;
+		object-fit:cover;
 	}
 }
 @media(min-width:1025px){
 	.swiperGallery .swiper-slide img{
 		height:600px;
 		width:675px;
-		object-fit:cover;
-		
+		object-fit:cover;		
+	}
+	.swiperActual .swiper-slide img{
+		height:650px;
+		width:100%;
+		object-fit:cover;		
 	}
 }
 body > div.website-wrapper > div.main-page-wrapper > div > div > div > div > section.wd-negative-gap.elementor-section.elementor-top-section.elementor-element.elementor-element-4c91fed.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.wd-section-disabled.wpr-particle-no.wpr-jarallax-no.wpr-parallax-no.wpr-sticky-section-no > div > div > div > section > div > div > div > div > div > form > select{

@@ -67,4 +67,26 @@ const swiper2 = new Swiper('.swiperGallery', {
         hide: true
       }
 });
+
+const swiperActual = new Swiper('.swiperActual', {
+	slidesPerView: 1,
+  spaceBetween: 20,
+  // loop: true,
+  navigation: {
+    nextEl: '.gallery-next',
+    prevEl: '.gallery-prev'
+  },
+  breakpoints: {
+    350: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+ 
+    800: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    }
+	}
+});
+
 </script>
