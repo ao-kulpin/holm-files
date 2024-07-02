@@ -666,7 +666,7 @@ background:transparent!important;
 }
 .actual_desc p{
 	color:#DAB089;
-	font-size:14px;
+	font-size:16px;
 	transition:all .5s;
 }
 .hover:hover .actual_desc p{
@@ -676,9 +676,7 @@ background:transparent!important;
 background-color:#2C2222;
 	transform:scale(1.02)
 }
-.hover:hover .actual_desc{
-	margin-top:15px
-}
+
 .fonari_bckgrnd{
 	background-color:#2C2222;
 	transition:all .5s;
