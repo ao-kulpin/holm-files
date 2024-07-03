@@ -73,8 +73,9 @@ const swiperActual = new Swiper('.swiperActual', {
   spaceBetween: 20,
   // loop: true,
   navigation: {
-    nextEl: '.gallery-next',
-    prevEl: '.gallery-prev'
+    nextEl: '.actual-next',
+    prevEl: '.actual-prev',
+    disabledClass: 'actual-disabled'
   },
   breakpoints: {
     350: {

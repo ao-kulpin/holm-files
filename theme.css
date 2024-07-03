@@ -560,10 +560,16 @@ content:url(http://localhost/holm/kafteess/2024/01/accent.svg);
 	right:5%;
 }
 .swiper-button-next::after, .gallery-next::after{
-content:url(http://localhost/holm/kafteess/2024/01/union3.svg)
+	content:url(http://localhost/holm/kafteess/2024/01/union3.svg)
+}
+.actual-next::after{
+	content:url(http://localhost/holm/kafteess/2024/01/union3.svg)
 }
 .swiper-button-prev::after, .gallery-prev::after{
-content:url(http://localhost/holm/kafteess/2024/01/union4.svg)
+	content:url(http://localhost/holm/kafteess/2024/01/union4.svg)
+}
+.actual-prev::after{
+	content:url(http://localhost/holm/kafteess/2024/01/union4.svg)
 }
 .hero_block svg {
   position: absolute;
@@ -1533,6 +1539,25 @@ select{
 	top:-40px;
 	cursor:pointer;
 }
+.actual-next, .actual-prev{
+	position: absolute;
+	cursor:pointer;
+	z-index: 2;
+	top: 50%;
+	margin-top: -5px;
+	color: greenyellow;
+}
+.actual-prev {
+	left: 5px;
+}
+.actual-next {
+	right: 5px;
+}
+.actual-disabled {
+	display: none;
+	cursor: auto;
+    pointer-events: none;
+}
 .gallery-next{
 	right:var(--swiper-navigation-sides-offset, 10px);
 	left:auto;
@@ -1553,7 +1578,7 @@ select{
 	}
 }
 @media(min-width:640px) and (max-width:1023px){
-		.gallery-next, .gallery-prev{
+	.gallery-next, .gallery-prev{
 		top:-40px;
 	}
 	.gallery-prev{
