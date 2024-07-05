@@ -1477,9 +1477,15 @@ nav[class*="-pagination"] li .page-numbers {
 .hero-btn a{
 	padding:0;
 }
+.swiperStreetLamp .swiper-slide img{
+	aspect-ratio: 2/9;
+	width:100%;
+	object-fit:cover;
+}
+
 @media(min-width:320px) and (max-width:639px){
 	.swiperGallery .swiper-slide img{
-		height:430px;
+			height:430px;
 		width:100%;
 		object-fit:cover;
 	}
@@ -1500,7 +1506,7 @@ nav[class*="-pagination"] li .page-numbers {
 		object-fit:cover;
 	}
 	.swiperActual .swiper-slide img{
-		/*height:550px; */
+			/*height:550px; */
 		aspect-ratio: 4/5;
 		width:100%;
 		object-fit:cover;
@@ -1513,7 +1519,7 @@ nav[class*="-pagination"] li .page-numbers {
 		object-fit:cover;		
 	}
 	.swiperActual .swiper-slide img{
-		/* height:650px; */
+			/* height:650px; */
 		aspect-ratio: 4/5;
 		width:100%;
 		object-fit:cover;		

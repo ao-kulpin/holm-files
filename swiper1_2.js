@@ -90,4 +90,26 @@ const swiperActual = new Swiper('.swiperActual', {
 	}
 });
 
+const swiperStreetLamp = new Swiper('.swiperStreetLamp', {
+	slidesPerView: 1,
+  spaceBetween: 20,
+  // loop: true,
+  navigation: {
+    nextEl: '.actual-next',
+    prevEl: '.actual-prev',
+    disabledClass: 'actual-disabled'
+  },
+  breakpoints: {
+    350: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+ 
+    800: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    }
+	}
+});
+
 </script>
