@@ -563,14 +563,34 @@ content:url(http://localhost/holm/kafteess/2024/01/accent.svg);
 	content:url(http://localhost/holm/kafteess/2024/01/union3.svg)
 }
 .actual-next::after{
-	content:url(http://localhost/holm/kafteess/2024/01/union3.svg)
+	content:url(http://localhost/holm/kafteess/2024/07/arrow-2-active-right.svg)
 }
+.actual-next:hover::after{
+	content:url(http://localhost/holm/kafteess/2024/07/arrow-2-hover-right.svg)
+}
+.actual-next.actual-disabled {
+	cursor: default;
+}
+.actual-next.actual-disabled::after{
+	content:url(http://localhost/holm/kafteess/2024/07/arrow-2-disabled-right.svg)
+}
+
 .swiper-button-prev::after, .gallery-prev::after{
 	content:url(http://localhost/holm/kafteess/2024/01/union4.svg)
 }
 .actual-prev::after{
-	content:url(http://localhost/holm/kafteess/2024/01/union4.svg)
+	content:url(http://localhost/holm/kafteess/2024/07/arrow-2-active-left.svg)
 }
+.actual-prev:hover:after{
+	content:url(http://localhost/holm/kafteess/2024/07/arrow-2-hover-left.svg)
+}
+.actual-prev.actual-disabled {
+	cursor: default;
+}
+.actual-prev.actual-disabled::after{
+	content:url(http://localhost/holm/kafteess/2024/07/arrow-2-disabled-left.svg)
+}
+
 .hero_block svg {
   position: absolute;
   top: 0;
@@ -1553,7 +1573,7 @@ select{
 	cursor:pointer;
 	z-index: 2;
 	top: 50%;
-	margin-top: -5px;
+	margin-top: -40px;
 	color: greenyellow;
 }
 .actual-prev {
@@ -1561,11 +1581,6 @@ select{
 }
 .actual-next {
 	right: 5px;
-}
-.actual-disabled {
-	display: none;
-	cursor: auto;
-    pointer-events: none;
 }
 .gallery-next{
 	right:var(--swiper-navigation-sides-offset, 10px);
